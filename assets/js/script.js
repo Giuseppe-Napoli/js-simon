@@ -24,7 +24,7 @@ $(function(){
 
   $('#btn-invia').click(function(){
       var arrResult = [];
-      var number = $('input').val();
+      var number = $('nUtente').val();
       arrUtente.push(number);
       $('#nUtente').val('');
       if (arrUtente.length === 5) {
